@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pipe';
+  amount = 2;
+  currencies = ['XAF','USD','EUR'];
+  current_currency1 = 'EUR'
+  current_currency2 = 'USD'
+  inputCurr = 0
+
+  onCurrChange () {
+    console.log("val")
+  }
 }
